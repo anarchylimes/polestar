@@ -19,6 +19,48 @@
 		},
 		"note": "Trial of the Lake (Druid Aquatic Form, Alliance) is open to Night Elf and Skyborne Druids. The merged data had Night Elf only, while Trial of the Sea Lion (272) before it already allows Skyborne, so Skyborne druids stopped halfway."
 	},
+	"37": {
+		"set": {
+			"end": {
+				"npc": [],
+				"object": [
+					55
+				]
+			}
+		},
+		"source": [
+			{
+				"kind": "recording",
+				"ref": "players' in-game recordings to 2026-11-16 (excluded contributors left out): 61 people ran Find the Lost Guards (37); all 65 hand-ins were at an object, none in Guard Thomas's window"
+			},
+			{
+				"kind": "cmangos",
+				"ref": "classic-db: end"
+			}
+		],
+		"note": "Find the Lost Guards (37) is handed in at A half-eaten body in Elwynn Forest. The merged data also listed Guard Thomas, who gives it, as an ender, so While you're here could offer the hand-in beside him (#2546 sweep)."
+	},
+	"67": {
+		"set": {
+			"end": {
+				"npc": [],
+				"object": [
+					3643
+				]
+			}
+		},
+		"source": [
+			{
+				"kind": "recording",
+				"ref": "players' in-game recordings to 2026-11-16 (excluded contributors left out): 48 people ran The Legend of Stalvan (67); all 35 hand-ins were at an object, none in Clerk Daltry's window"
+			},
+			{
+				"kind": "cmangos",
+				"ref": "classic-db: end"
+			}
+		],
+		"note": "The Legend of Stalvan (67) is handed in at the Old Footlocker in Westfall. The merged data also listed Clerk Daltry, who gives it, as an ender, so While you're here offered the hand-in beside him in Darkshire, where the game has none (#2546)."
+	},
 	"90": {
 		"set": {
 			"objectives": [
@@ -436,6 +478,27 @@
 		},
 		"note": "Teldrassil (from the Oracle Tree Bark to Fandral) rewards 440 XP on Forever; the merged data had 220, the Classic value. Players' game caches give 440, as The Enchanted Glade (937) at the same level has. Issue #647."
 	},
+	"944": {
+		"set": {
+			"end": {
+				"npc": [],
+				"object": [
+					10076
+				]
+			}
+		},
+		"source": [
+			{
+				"kind": "recording",
+				"ref": "players' in-game recordings to 2026-11-16 (excluded contributors left out): 45 people ran The Master's Glaive (944); all 40 hand-ins were at an object, none in Onu's window"
+			},
+			{
+				"kind": "cmangos",
+				"ref": "classic-db: end"
+			}
+		],
+		"note": "The Master's Glaive (944) is handed in at the Scrying Bowl at the Master's Glaive. The merged data also listed Onu, who gives it, as an ender, so While you're here could offer the hand-in beside him (#2546 sweep)."
+	},
 	"959": {
 		"set": {
 			"xp": 2650
@@ -467,6 +530,27 @@
 			}
 		],
 		"note": "Serpentbloom (Wailing Caverns) rewards 3,300 XP on Forever; the merged data had 1,350, the Classic value. Forever about doubled dungeon quest XP, and the value here is the one players' game caches give after the 1 October 2026 change that halved the extra (build 70170). Issue #394."
+	},
+	"983": {
+		"set": {
+			"end": {
+				"npc": [],
+				"object": [
+					17182
+				]
+			}
+		},
+		"source": [
+			{
+				"kind": "recording",
+				"ref": "players' in-game recordings to 2026-11-16 (excluded contributors left out): 83 people ran Buzzbox 827 (983); all 78 hand-ins were at an object, none in Wizbang Cranktoggle's window"
+			},
+			{
+				"kind": "cmangos",
+				"ref": "classic-db: end"
+			}
+		],
+		"note": "Buzzbox 827 (983) is handed in at the buzzbox on the Darkshore coast. The merged data also listed Wizbang Cranktoggle, who gives it, as an ender, so While you're here could offer the hand-in beside him (#2546 sweep)."
 	},
 	"990": {
 		"set": {
@@ -1011,6 +1095,27 @@
 			"ref": "players' caches (EG Link): races"
 		},
 		"note": "Nether-lace Garment (Kil'hala, after 1945) is open to every Horde Mage: Orc, Undead and Troll. Forever's server sets no race limit (raceMask all, builds 70205-70450) and Forever's quest page sets none (reqrace 0); the merged data had Classic's Undead and Troll."
+	},
+	"2201": {
+		"set": {
+			"end": {
+				"npc": [],
+				"object": [
+					112877
+				]
+			}
+		},
+		"source": [
+			{
+				"kind": "recording",
+				"ref": "players' in-game recordings to 2026-11-16 (excluded contributors left out): 5 people ran Find the Gems (2201); both recorded hand-ins were at an object, none in Talvash del Kissel's window"
+			},
+			{
+				"kind": "cmangos",
+				"ref": "classic-db: end"
+			}
+		],
+		"note": "Find the Gems (2201) is handed in at Talvash's Scrying Bowl in Ironforge. The merged data also listed Talvash del Kissel beside it as an ender, so While you're here could offer the hand-in to him (#2546 sweep)."
 	},
 	"2358": {
 		"remove": true,
@@ -1771,6 +1876,27 @@
 			"ref": "Factoruide row sources: questie"
 		},
 		"note": "Seal of Ascension: starts with Scarshield Infiltrator (npc 10299) and ends with Scarshield Infiltrator (npc 10299); as its giver the merged data also listed Vaelan (npc 10296); as its ender the merged data also listed Vaelan (npc 10296)."
+	},
+	"4812": {
+		"set": {
+			"end": {
+				"npc": [],
+				"object": [
+					175524
+				]
+			}
+		},
+		"source": [
+			{
+				"kind": "recording",
+				"ref": "players' in-game recordings to 2026-11-16 (excluded contributors left out): 69 people ran As Water Cascades (4812); all 64 hand-ins were at an object, none in Sentinel Glynda Nal'Shea's window"
+			},
+			{
+				"kind": "cmangos",
+				"ref": "classic-db: end"
+			}
+		],
+		"note": "As Water Cascades (4812) is handed in at the Mysterious Red Crystal. The merged data also listed Sentinel Glynda Nal'Shea, who gives it, as an ender, so While you're here could offer the hand-in beside her (#2546 sweep)."
 	},
 	"4866": {
 		"set": {
@@ -3500,7 +3626,13 @@
 			],
 			"preAny": [
 				91859
-			]
+			],
+			"end": {
+				"npc": [],
+				"object": [
+					566037
+				]
+			}
 		},
 		"source": [
 			{
@@ -3510,9 +3642,13 @@
 			{
 				"kind": "factoruide",
 				"ref": "pre_any 91859"
+			},
+			{
+				"kind": "recording",
+				"ref": "players' in-game recordings to 2026-11-16 (excluded contributors left out): 14 people ran A Grim Fate (91860); all 14 hand-ins were at an object, none in Deathguard Baldren's window"
 			}
 		],
-		"note": "The Lumina Windsinger chain (Undead Paladins): Deathguard Baldren's A Grim Fate (91860) follows A Curious Pair (91859), handed in to him. The merged data had no prerequisite."
+		"note": "The Lumina Windsinger chain (Undead Paladins): Deathguard Baldren's A Grim Fate (91860) follows A Curious Pair (91859), handed in to him. The merged data had no prerequisite. It is handed in at the Charred Remains; the merged data also listed Deathguard Baldren, who gives it, as an ender (#2546 sweep)."
 	},
 	"91861": {
 		"set": {
@@ -4687,6 +4823,27 @@
 			}
 		],
 		"note": "Call of Fire (Dun Morogh, Dwarf Shaman) lists Fire Tar first, then the Reagent Pouch. The merged data had the two the other way round, so `quest 94466.1` named the pouch. Races: it keeps the Alliance race mask: Forever's server sets the Alliance races on 94449, 94467 and 94468 and no race limit on 94466 (players' caches), and QuestieDB had the Alliance up to 1.0.13. QuestieDB 1.0.14 narrowed the chain to Dwarf. Who can take it does not change: Dwarves are the only Alliance race that can be a Shaman."
+	},
+	"94502": {
+		"set": {
+			"end": {
+				"npc": [],
+				"object": [
+					619896
+				]
+			}
+		},
+		"source": [
+			{
+				"kind": "recording",
+				"ref": "players' in-game recordings to 2026-11-16 (excluded contributors left out): 16 people ran Call of Water (94502); all 15 hand-ins were at an object, none in Norric Lochthane's window"
+			},
+			{
+				"kind": "questie",
+				"ref": "QuestieDB Forever: finishedBy object 619896"
+			}
+		],
+		"note": "Call of Water (94502) is handed in at the Forgotten Shrine. The merged data also listed Norric Lochthane, who gives it, as an ender, so While you're here could offer the hand-in beside him (#2546 sweep)."
 	},
 	"95034": {
 		"set": {
@@ -9816,7 +9973,13 @@
 	},
 	"94467": {
 		"set": {
-			"races": 4294967373
+			"races": 4294967373,
+			"end": {
+				"npc": [],
+				"object": [
+					61934
+				]
+			}
 		},
 		"source": [
 			{
@@ -9826,9 +9989,13 @@
 			{
 				"kind": "questie",
 				"ref": "QuestieDB generated Forever base, requiredRaces: ALL_ALLIANCE in 1.0.10 to 1.0.13, DWARF in 1.0.14"
+			},
+			{
+				"kind": "recording",
+				"ref": "players' in-game recordings to 2026-11-16 (excluded contributors left out): 12 people ran Call of Fire (94467); all 12 hand-ins were at an object, none in Braldir Ashmantle's window"
 			}
 		],
-		"note": "Call of Fire (the Alliance Shaman fire totem chain) keeps the Alliance race mask: Forever's server sets the Alliance races on 94449, 94467 and 94468 and no race limit on 94466 (players' caches), and QuestieDB had the Alliance up to 1.0.13. QuestieDB 1.0.14 narrowed the chain to Dwarf. Who can take it does not change: Dwarves are the only Alliance race that can be a Shaman."
+		"note": "Call of Fire (the Alliance Shaman fire totem chain) keeps the Alliance race mask: Forever's server sets the Alliance races on 94449, 94467 and 94468 and no race limit on 94466 (players' caches), and QuestieDB had the Alliance up to 1.0.13. QuestieDB 1.0.14 narrowed the chain to Dwarf. Who can take it does not change: Dwarves are the only Alliance race that can be a Shaman. Its hand-in is the Brazier of the Dormant Flame; the merged data also listed Braldir Ashmantle, who gives it, as an ender (#2546 sweep)."
 	},
 	"94468": {
 		"set": {

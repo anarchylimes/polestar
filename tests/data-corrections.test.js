@@ -539,3 +539,14 @@ test('Blood of My Blood counts 10 of any Fallow Sanctuary Lost One', () => {
 	assert.deepEqual(o.credit, [759, 760, 761, 762]);
 	assert.ok(o.credit.includes(o.id), 'the kill names one of the credited Lost Ones');
 });
+
+// The Legend of Stalvan (67) is handed in at the Old Footlocker in Westfall, but the merged data also listed Clerk
+// Daltry, who gives it, so While you're here offered the hand-in beside him in Darkshire (#2546). The same stray NPC
+// ender sat on every quest the data ended at both an NPC and an object; in players' recordings each one is handed
+// in at the object only.
+test('quests handed in at an object end only there, with no NPC ender beside it (#2546)', () => {
+	const ends = { 37: 55, 67: 3643, 944: 10076, 983: 17182, 2201: 112877, 4812: 175524, 91860: 566037, 94467: 61934, 94502: 619896 };
+	for (const [id, object] of Object.entries(ends)) {
+		assert.deepEqual(corrections.quests[id].set.end, { npc: [], object: [object] }, `quest ${id}`);
+	}
+});
